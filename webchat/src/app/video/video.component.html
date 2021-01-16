@@ -1,11 +1,11 @@
 
 <div class="content">
 
-  <button mat-button (click)="onTurnCamera($event)" #turnCamera>
-    <mat-icon>cached</mat-icon>
+  <button mat-stroked-button (click)="onTurnCamera($event)" #turnCamera>
+    start camera
   </button>
 
 
-  <video autoplay muted width="80%" height="80%" #video></video>
+  <video autoplay muted width="80%" height="80%" #video id='video'></video>
 
 </div>
